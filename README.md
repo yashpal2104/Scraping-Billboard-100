@@ -23,3 +23,28 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/yourusername/billboard-spotify-playlist.git
    cd billboard-spotify-playlist
+2. Install the required Python packages:
+ ```bash
+   pip install requests beautifulsoup4 spotipy
+```
+3. Set up your Spotify application credentials in the script:
+   ```bash
+   client_id = 'your_client_id'
+   client_secret = 'your_client_secret'
+   redirect_uri = 'http://example.com'  # The redirect URI you set up in the Spotify Developer Dashboard
+
+## Usage
+1. Run the script:
+   ```bash
+   python main.py
+
+2. Enter the date in YYYY-MM-DD format when prompted.
+3. The script will create a private Spotify playlist on your account with the top songs from the Billboard Hot 100 chart on the specified date.
+
+## Contributing
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+
+Screenshot
